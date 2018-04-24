@@ -7,4 +7,3 @@ Start the consumer listening to the javain_use_topic-
 
 Rest Call:
 http://localhost:8080//techskills-kafka/producer?message=siva
-git remote add origin https://github.com/jofisiva/spring-kafka.git
