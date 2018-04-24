@@ -1,0 +1,10 @@
+start the Zookeeper:
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+Start Apache Kafka:
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+Start the consumer listening to the javain_use_topic-
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic javainuse-topic --from-beginning
+
+Rest Call:
+http://localhost:8080//techskills-kafka/producer?message=siva
+git remote add origin https://github.com/jofisiva/spring-kafka.git
